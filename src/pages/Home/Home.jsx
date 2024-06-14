@@ -118,7 +118,7 @@ export default function Home() {
             { name: "Food", value: categorySpends.food },
             { name: "Entertainment", value: categorySpends.entertainment },
             { name: "Travel", value: categorySpends.travel },
-          ]}
+          ].filter(obj=>obj.value)}
         />
       </div>
 
